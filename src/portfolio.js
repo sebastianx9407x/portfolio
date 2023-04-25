@@ -200,6 +200,17 @@ const bigProjects = {
   subtitle: "Some projects I am currently working on! (links are currently broken)",
   projects: [
     {
+      image: require("./assets/images/netflix.png"),
+      projectName: "Full Stack Netflix Clone",
+      projectDesc: "Developed TypeScript application to replicate Netflix and its basic functions. Allows users to login, add favorite movies to list and watch movies as well.",
+      footerLink: [
+        {
+          name: "Visit Website (Link is safe promise!)",
+          url: "https://media-streaming-app-sebastianx9407x.vercel.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/bill.png"),
       projectName: "Discord Automated Bill Bot",
       projectDesc: "Automated bot create to allow users to split dinner bills easily through Discord. Utilizes receipt reading libraries for ease of use and will be expanding to other forms of bills such as Discord Nitro.",
@@ -221,7 +232,7 @@ const bigProjects = {
       //     url: "http://nextu.se/"
       //   }
       // ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

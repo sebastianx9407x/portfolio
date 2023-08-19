@@ -23,7 +23,7 @@ const greeting = {
   username: "Sebastian Gonzales",
   title: "Hello, my name is Sebastian! ",
   subTitle: emoji(
-    "A recent Virginia Tech graduate looking to join a team to gain experience in software engineering 🚀 I have experience in multiple areas but have mainly focused on Full Stack Applications, Machine Learning, and DevOps. I mainly work with JavaScript / Typescript / Python / React.js / AWS."
+    "Upcoming Virginia Tech graduate looking to join a team to gain experience in software engineering 🚀 I have experience in multiple areas but have mainly focused on Full Stack Applications, Machine Learning, and DevOps. I mainly work with JavaScript / Typescript / Python / React.js / AWS."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1BoFvCU9YcDr8f3N_wydk4l8mZskkTbL8-Wtkgs-baVc/edit?usp=share_link", // Set to empty to hide the button
@@ -118,7 +118,7 @@ const educationInfo = {
       schoolName: "Virginia Tech University",
       logo: require("./assets/images/vt.png"),
       subHeader: "Bachelors of Science in Computer Science",
-      duration: "August 2018 - December 2022",
+      duration: "August 2018 - December 2023",
       desc: "Courses:",
       descBullets: [
         "Data Centric Capstone",
